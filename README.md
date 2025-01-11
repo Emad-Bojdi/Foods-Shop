@@ -34,9 +34,7 @@ The primary goals of the Food Shop project are:
 - **Backend**: JSON Server (for simulating API)
 - **Package Management**: npm for managing dependencies
 
-### Installation and Usage
 
-To get started with the Food Shop application, you can run the following command to start the development server:
 
 
 
