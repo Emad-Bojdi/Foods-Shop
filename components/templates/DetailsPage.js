@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Dollar from "../icons/Dollar";
 import Location from "../icons/Location";
 import styles from "./DetailsPage.module.css";
@@ -11,7 +12,7 @@ const DetailsPage = (props) => {
             <h2> Details </h2>
             <div className={styles.subContainer}>
                 <div className={styles.banner}>
-                    <img src={`/images/${id}.jpeg`} alt={name} />
+                    <Image src={`/images/${id}.jpeg`} alt={name} />
                     <div>
                         <h3> {name} </h3>
                         <span className={styles.location}>

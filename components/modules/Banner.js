@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./Banner.module.css";
+import Image from "next/image";
 
 function Banner() {
   return (
@@ -15,7 +16,7 @@ function Banner() {
         <Link href="/menu">See All</Link>
       </div>
       <div className={styles.right}>
-        <img src="/images/banner.png" alt="Food image"/>
+        <Image src="/images/banner.png" alt="Food image"/>
       </div>
     </div>
   );
